@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitars and Basses</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="Script/main.js"></script>
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    
+      <!--BOOTSTRAP NAV BAR-->
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="Index.html"><img id="menuImage" src="Images/Music.png" alt="Image of logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="Index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Bass</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Pianos.html">Pianos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="elecEquip.html">Amps</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutUs.html">About Us</a>
+              </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    <!--BOOTSTRAP NAV BAR ENDS-->
+
+    <iframe src="https://www.youtube.com/embed/gGSDZwtSnSs" title="YouTube video player" alt="Bass cover of Hysteria - Muse" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <br>
+    <!--BACKGROUND SECTION STARTS-->
+    <section>
+
+      <div class="container">
+        <div class="row">
+          <h3>Yamaha TRBX174</h3>
+          <p class="col-6"><br>These basses are super cool! Versatile, PJ single-coil pickup so can play many genres and not limited to one style of playing. Allows beginners to explore what tones and what sounds they like and work with the style of music they play. Sounds good with fingerpicking as well as with a pick. Super cheap for a super good quality bass and is perfect as an introductory instrument. Full length 24 frets.<br><br><br> <a href="https://www.thomann.de/ie/yamaha_trbx_174_bl.htm?glp=1&gclid=EAIaIQobChMI0aziibbY-wIVCu_tCh13lgBqEAQYAyABEgLi5vD_BwE" target="_blank" rel="noopener" class="btn">Click here</a><br><br><br>
+            <audio controls class='audio'>
+              <source src="../Project/trbx.mp3">
+              <!-- This text will be shown if a browser doesn't support the extension of your audio -->
+              Your browser does not support the audio element.
+            </audio>
+          </p>
+          <img class="col-6 img-display" id="ym" onmouseover="newImg()" onmouseout="ogImg()" src="Images/acctrbx.jpg">
+        </div>
+      </div>
+
+      <br>
+
+      <div class="container">
+        <div class="row">
+          <h3>Squier Affinity Jaguar H</h3>
+          <p class="col-6"><br>The Squier Jaguar has a gorgeous body that's sure to grab eyes! Modeled after the Fender Jaguar, it is a good bass guitar for its budget-friendly price and features. It has a humbucker pickup which is perfect for a thick tone. 
+            <br><br><br> <a href="https://www.fender.com/en-IE/squier-electric-basses/jaguar-bass/affinity-series-jaguar-bass-h/0378502502.html" target="_blank" rel="noopener" class="btn">Click here</a> <br><br>
+            <audio controls class='audio'>
+            <source src="../Project/sqjag.mp3">
+            <!-- This text will be shown if a browser doesn't support the extension of your audio -->
+            Your browser does not support the audio element.
+          </audio></p>
+          <img class="col-6 img-display" id="sqjag" onmouseover="changeImageSq()" onmouseout="returnImageSq()" src="Images/squierjag.jpg">
+        </div>
+      </div>
+
+      <br>
+
+      <div class="container">
+        <div class="row">
+          <h3>Epiphone EB-0</h3>
+          <p class="col-6"><br> The Epiphone EB-0 is a short-scale bass with a humbucker pickup. the epiphone eb 0 is a short-scale bass that is perfect for playing rock music! It has the classic and well-loved SG shape redesigned for newer players with a body and neck made of mahogany wood. Its neck is slim and it is a short scale bass, so it is a perfect pick for players who don’t like having to stretch out their fingers to reach notes with large intervals. It has a sidewinder humbucker pickup, giving it a unique, fat bass sound.   <br><br><br> <a href="https://www.thomann.de/ie/epiphone_ebo.htm" target="_blank" rel="noopener" class="btn">Click here</a><br><br>
+            <audio controls class='audio'>
+              <source src="../Project/supercoolguitartrack.mp3">
+              <!-- This text will be shown if a browser doesn't support the extension of your audio -->
+              Your browser does not support the audio element.
+            </audio>
+          </p>
+          <img class="col-6 img-display" id="eb" onmouseover="cngImg()" onmouseout="rtrnImg()" src="Images/ebbl.jpg">
+        </div>
+      </div>
+
+    <!--BACKGROUND SECTION ENDS-->
+    </section>
+
+    <!--JAVASCRIPT SCRIPTS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <br>
+   
+    <footer class="table">
+      <table>
+  
+        <tr>
+          <td>MUSE 56</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Maryam Al-Ateye D21124256</td>
+        </tr>
+  
+      </table>
+  </footer>
+
+</body>
+</html>

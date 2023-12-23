@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="Script/main.js"></script>
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+
+     <!--BOOTSTRAP NAV BAR-->
+     <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="Index.html"><img id="menuImage" src="Images/Music.png" alt="Image of logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="Index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Guitars.html">Bass</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Pianos.html">Pianos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="elecEquip.html">Amps</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <!--BOOTSTRAP NAV BAR ENDS-->
+
+    <div class="container">
+      <h1>About Us</h1>
+      <p> MUSE 56 is a website that was made to help new musicians and people who are looking to buy a new instrument that is affordable and of good quality. We have researched into the best instruments and manufacturers and collected them to present easily for people who are interested. We specialise in piano and bass guitars, but are available to give advice on a select few other instruments like guitar and drums. If you have any questions or suggestions for us, please feel free to fill out the contact form below! We are always looking to improve and your feedback is extremely helpful to us and is always welcome :)</p>
+      <br>
+
+      <div class="row">
+        <p class="col-6">Good suggestions for us:</p>
+        <p class="col-6">Our personal favourite products:</p>
+      </div>
+
+      <div class="row">
+        <ul class="col-6">
+          <li>Colors aren't very nice</li>
+          <li>Design isn't appealing (why?)</li>
+          <li>Sound clips aren't good</li>
+        </ul>
+
+        <ol class="col-6">
+          <li>Yamaha TRBX174</li>
+          <li>Thomann DP26</li>
+          <li>Blackstar Mini Fly 3</li>
+        </ol>
+      </div>
+
+      <h3>Questions or suggestions?</h3>
+      <form name="myForm" action="" onsubmit="validateForm()" method="post">
+          <label for="fname">Your name:*</label>
+          <input type="text" id="fname" name="fname">
+          <label for="email">Enter your email:*</label>
+          <input type="email" id="email" name="email" pattern=".+@tudublin\.ie"><br><br>
+          <p>Please select your main reason for using this site*</p>
+          <input type="radio" id="groupOne" name="group" value="bass">
+          <label for="groupOne">Bass</label><br>
+          <input type="radio" id="groupTwo" name="group" value="Piano">
+          <label for="groupTwo">Piano</label><br>
+          <input type="radio" id="groupThree" name="group" value="Amps">
+          <label for="groupThree">Amps</label>
+          <p>Which pages did you find to be useful for your experience?*</p>
+          <input type="checkbox" id="pageOne" name="page" value="basss">
+          <label for="languageOne"> Bass</label>
+          <input type="checkbox" id="pageTwo" name="page" value="pianoo">
+          <label for="languageTwo"> Piano</label>
+          <input type="checkbox" id="pageThree" name="page" value="Ampss">
+          <label for="languageThree"> Amps</label><br><br>
+
+          <label for="region">Which region are you accessing this site from?</label>
+          <select id="region" name="region">
+            <option value="namerica">North America</option>
+            <option value="samerica">South America</option>
+            <option value="europe">Europe</option>
+            <option value="asia">Asia</option>
+            <option value="africa">Africa</option>
+          </select><br><br>
+
+          <label for="question">Ask a question or give a suggestion :)</label>
+          <textarea id="question" name="question"></textarea>
+          
+          <input type="submit" value="Submit"><br>
+      </form>
+
+      <br><br>
+      <div id="flash">
+        <p id="demo">Click for a fact!</p>
+        <button onclick="funFact()">CLICK</button>
+      </div>
+
+    </div>
+
+     <!--JAVASCRIPT SCRIPTS-->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+     <br>
+     
+     <footer class="table">
+      <table>
+  
+        <tr>
+          <td>MUSE 56</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Maryam Al-Ateye D21124256</td>
+        </tr>
+  
+      </table>
+  </footer>
+
+</body>
+</html>
