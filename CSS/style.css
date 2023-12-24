@@ -1,0 +1,102 @@
+body{
+    background-color: #0c0c0c;
+}
+
+#headerImage{
+    height: 98vh;
+    width: 99vw;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #headerImage{
+      width: 100vw;
+      height: 50vh;
+    }
+  }
+
+#menuImage{
+    height: 5rem;
+    width: 5rem;
+}
+
+.card{
+    background-color: #292828;
+}
+
+.card-text{
+    color: white;
+}
+
+.card-title{
+    color: white;
+}
+
+.btn{
+    background-color: crimson;
+    color: white;
+}
+
+.btn:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+section{
+    background-color: #292828;
+    padding: 2%;
+}
+
+section div{
+    background-color:white;
+}
+
+.container{
+    background-color: white;
+}
+
+iframe{
+    width: 100vw;
+    height: 90vh;
+}
+
+button{
+    margin-top: 0;
+}
+
+.img-display{
+    height: 30rem;
+    /*width: 20rem;*/
+}
+
+#myBtn {
+    position: fixed;
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: crimson;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+  
+footer{
+    background-color: rgb(70, 68, 68);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.table{
+    color: white;
+}
+
+#flash{
+    background-color: crimson;
+}
